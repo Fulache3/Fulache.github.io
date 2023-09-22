@@ -3,57 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <style>
-    body {
-      margin: 0px;
-    }
-    p {
-      color: white;
-      margin-left: 30px;
-      font-family: arial;
-      font-weight: bold;
-    }
-    input {
-      width: 200px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 10px;
-      border-radius: 20px;
-      border: none;
-      cursor: pointer;
-      transition: width 0.15s;
-    }
-    input:hover {
-      width: 500px;
-    }
-    button {
-      color: white;
-      border: solid;
-      border-width: 1px;
-      border-color: white;
-      background-color: rgb(82, 0, 99);
-      margin-right: 30px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 12px;
-      padding-right: 12px;
-    }
+    <link rel="icon" href="Images/letter-f.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/general.css" />
+    <link rel="stylesheet" href="CSS/home-page-content.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
 
-    .header-flex-box {
-      display: flex;
-      background-color: rgb(82, 0, 99);
-      height: 60px;
-      justify-content: space-between;
-      align-items: center;
-    }
-  </style>
+    <title>Fulache Home</title>
+  </head>
   <body>
-    <div class="header-flex-box">
-      <div><p>Home</p></div>
-      <div><input type="text" placeholder="Search" /></div>
-      <div><button>Download</button></div>
+    <div class="upper-header-container">
+      <div class="left-side-header">
+        <p class="my-name">Christian Neil B. Fulache</p>
+      </div>
+      <div class="right-side-header">
+        <a href="index.html">Home</a>
+        <a href="experience.html">Experience</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="">Contact</a>
+      </div>
+    </div>
+    <div class="home-content">
+      <p class="home-page-saying">
+        <span class="header-saying"
+          ><span class="header-move">Hello,</span
+          ><span class="header-move"> I'm</span
+          ><span class="header-move"> Christian</span
+          ><span class="header-move"> Neil</span> </span
+        ><span class="p-saying">a versatile web designer and web developer. Join me on an exciting
+          journey where design meets functionality. Let's create visually stunning
+          and technically sound websites that leave a lasting impression. Welcome
+          to my world of digital innovation.</span>
+      </p>
+      <img
+        class="profile-home-page"
+        src="Images/me-home-page.png"
+        alt="me-home-page"
+      />
     </div>
   </body>
 </html>
