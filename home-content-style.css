@@ -1,0 +1,52 @@
+.home-content-container {
+  z-index: 1;
+  position: fixed;
+  top: 70px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.home-main-section {
+  margin-top: 150px;
+  padding: 50px;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  right: 20%;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+  cursor: pointer;
+  transition: transform 1s;
+}
+.home-main-section:hover {
+  transform: scale(1.2);
+}
+.content-header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+@media (max-width: 707px) {
+  .content-header {
+    font-size: 15px;
+  }
+  .content-paragraph{
+    font-size: 8px;
+  }
+}
+.content-header span {
+  position: relative;
+  display: inline-block;
+  animation: flip 5s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+    color: rgba(0, 217, 255, 0.76);
+  }
+}
+.content-paragraph {
+  font-size: 10px;
+}
