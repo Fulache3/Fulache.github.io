@@ -1,0 +1,8 @@
+.element-to-tilt{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    
+}
+.tilt-inner{
+    transform: translateZ(20px);
+}

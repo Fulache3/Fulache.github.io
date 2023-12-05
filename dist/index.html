@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="output.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Swiper's CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="icon"
+            href="Images/MY-LOGO.png"
+            sizes="16x16"
+            type="image/png"
+        />
+        <title>Fulache - Main</title>
+    </head>
+    <body class="font-mon text-white">
+        <!--First section-->
+        <section class="w-full grid grid-cols-1 bg-gray-700 gap-10 px-2">
+            <!--Header Section-->
+            <header
+                class="header opacity-0 w-full flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-between z-20"
+            >
+                <div class="w-full flex items-center justify-between p-5">
+                    <div class="w-fit h-fit flex gap-2 items-center">
+                        <img
+                            class="logo w-14 h-14 rounded-full"
+                            src="Images/MY-LOGO.png"
+                            alt="logo"
+                        />
+                    </div>
+                    <!--Large screen menu-->
+                    <div
+                        class="hidden md:flex lg:flex xl:flex gap-10 items-center justify-center font-bold text-white w-2/3 p-5"
+                    >
+                        <button
+                            class="skip-btn transition-all ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-400 hover:to-gray-400"
+                        >
+                            Home
+                        </button>
+                        <button
+                            class="skip-btn transition-all ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-400 hover:to-gray-400"
+                        >
+                            About
+                        </button>
+
+                        <button
+                            class="skip-btn transition-all ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-400 hover:to-gray-400"
+                        >
+                            Skills
+                        </button>
+                        <button
+                            class="skip-btn transition-all ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-400 hover:to-gray-400"
+                        >
+                            Projects
+                        </button>
+                        <button
+                            class="skip-btn transition-all ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-400 hover:to-gray-400"
+                        >
+                            Experiences
+                        </button>
+                        <button
+                            class="skip-btn transition-all ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-400 hover:to-gray-400"
+                        >
+                            Contact
+                        </button>
+                    </div>
+                    <!--Menu Button-->
+                    <div
+                        class="flex items-center justify-center md:hidden lg:hidden xl:hidden"
+                    >
+                        <button
+                            class="menu-btn py-2 px-3 rounded-lg bg-gray-400 opacity-70 border border-solid border-black"
+                        >
+                            <img
+                                class="w-7 h-7"
+                                src="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-8.png"
+                                alt="Menu Bar"
+                            />
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <!--First content-->
+            <div
+                data-tilt
+                data-tilt-max="0"
+                data-tilt-glare
+                data-tilt-max-glare="0.2"
+                class="page-contents bg-gradient-to-r from-blue-950 to-gray-600 containers w-full grid grid-cols-1 lg:grid-cols-2 shadow-xl pt-20 pb-14 p-5 rounded-md overflow-hidden"
+            >
+                <div
+                    class="stag-elem-con flex flex-col text-white lg:pl-20 gap-2 front-elem opacity-0"
+                >
+                    <h1
+                        class="first-con-header-1 font-bold text-3xl lg:text-5xl xl:text-5xl"
+                    >
+                        <span>H</span><span>i</span><span>!</span> <span>I</span
+                        ><span>'</span><span>m</span> <span>C</span
+                        ><span>h</span><span>r</span><span>i</span><span>s</span
+                        ><span>t</span><span>i</span><span>a</span
+                        ><span>n</span> <span>N</span><span>e</span
+                        ><span>i</span><span>l</span>
+                    </h1>
+                    <p>A front-end web developer</p>
+                    <p class="text-xs">
+                        Let's turn visions into seamless, user-friendly
+                        realities.
+                    </p>
+                    <div class="flex items-start mt-2">
+                        <button
+                            class="bg-gradient-to-r from-blue-950 to-gray-600 p-2 rounded-full text-xs"
+                        >
+                            Download CV
+                        </button>
+                    </div>
+                    <p class="text-xs opacity-50">Let me show you..</p>
+                </div>
+                <div
+                    class="relative flex items-center pl-8 sm:pl-40 lg:pl-20 front-elem opacity-0"
+                >
+                    <img
+                        class="rounded-full w-56 h-56 sm:w-80 sm:h-80 lg:w-80 lg:h-80 bg-blue-950"
+                        src="Images/me.png"
+                        alt="me"
+                    />
+                </div>
+            </div>
+        </section>
+        <!--Second section-->
+        <section
+            class="w-full grid grid-cols-1 bg-gray-700 gap-10 px-2 overflow-hidden"
+        >
+            <div class="w-full grid grid-cols-1 rounded-2xl shadow-xl">
+                <div class="page-contents w-1/2 text-white pl-5 pt-2">
+                    <h1 class="opacity-30">About</h1>
+                </div>
+                <!--CONTAINER-->
+                <div
+                    class="content-containers w-full bg-gradient-to-r from-yellow-950 to-gray-600 grid grid-cols-1 lg:grid-cols-2 divide-y gap-10 p-10 rounded-md shadow-xl"
+                >
+                    <div class="flex flex-col">
+                        <div
+                            class="element-to-tilt element-to-scroll opacity-0 w-full overflow-hidden rounded-md shadow-lg"
+                        >
+                            <img
+                                src="https://storage.googleapis.com/pc-prdmedia/DATA/article/e743f04b07b9.jpg"
+                                alt="curious-child"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="text-justify text-white flex flex-col gap-5 element-to-scroll opacity-0"
+                    >
+                        <h1 class="font-bold text-xl">MY STORY</h1>
+                        <p>
+                            I had an intense fascination with software and games
+                            when I was younger. The fascinating worlds and
+                            features these digital creations presented had me
+                            interested all the time. My never-ending interest
+                            led me to want to solve the mysteries hidden behind
+                            the screen. I tended to lose hours diving into the
+                            intricate details of different programs, wondering
+                            how a few lines of code could create such amazing
+                            things. A lifelong curiosity and a fundamental drive
+                            to comprehend the inner workings of technology were
+                            planted by this early passion. As I got older, this
+                            curiosity eventually developed into a deep interest
+                            in web development, where I learned how to create my
+                            own virtual worlds and realize my creative ideas on
+                            the wide internet. This is it.
+                        </p>
+                    </div>
+                    <div
+                        class="text-justify text-white flex flex-col gap-5 element-to-scroll opacity-0"
+                    >
+                        <h1 class="font-bold text-xl">EDUCATION</h1>
+                        <p>
+                            Embarking on the journey of higher education, I
+                            pursued a Bachelor of Science in Computer Science in
+                            college, a decision that has shaped my intellectual
+                            landscape and equipped me with a robust foundation
+                            in the world of technology. After years of
+                            dedication and hard work, I proudly graduated in
+                            June 2023, marking the culmination of an enriching
+                            academic chapter. This educational voyage not only
+                            honed my technical skills but also fostered a deep
+                            understanding of the principles that underpin the
+                            digital world. Armed with this knowledge, I am now
+                            poised to apply my academic achievements to
+                            real-world challenges and contribute meaningfully to
+                            the dynamic field of computer science.
+                        </p>
+                        <ol>
+                            <li>
+                                <span class="font-bold">Elementary:</span> Don
+                                Jose Aguirre, Elementary School - (2007-2013)
+                            </li>
+                            <li>
+                                <span class="font-bold">High School:</span> aint
+                                Estanislao Kostka College INC- (20013-2017)
+                            </li>
+                            <li>
+                                <span class="font-bold">College:</span> Jose
+                                Rizal Memorial State University - (2019-2023)
+                            </li>
+                        </ol>
+                        <div
+                            class="w-full flex flex-col gap-2 element-to-scroll opacity-0"
+                        >
+                            <h1 class="text-xs">
+                                Thesis: Automated Water Billing and Collection
+                                System using Machine Learning Digit Detection
+                            </h1>
+                            <div class="w-fit grid grid-cols-2 gap-2">
+                                <video
+                                    muted
+                                    autoplay
+                                    loop
+                                    class="element-to-scroll opacity-0 element-to-tilt rounded-xl"
+                                >
+                                    <source
+                                        src="Videos/thesis.mp4"
+                                        type="video/mp4"
+                                    />
+                                </video>
+                                <p
+                                    class="text-2xs lg:text-sm sm:leading-8 md:leading-8 lg:leading-8"
+                                >
+                                    The project's goal involves digit detection
+                                    in images, and I've opted for a machine
+                                    learning approach. After accumulating a
+                                    substantial dataset comprised of images
+                                    containing digits from water meters, I
+                                    proceeded to the training phase. Leveraging
+                                    the EfficientDNet architecture, which
+                                    harnesses the power of Convolutional Neural
+                                    Networks (CNNs), the model exhibited
+                                    exceptional performance during training,
+                                    demonstrating its effectiveness in learning
+                                    and recognizing digit patterns.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col pt-7">
+                        <div
+                            class="element-to-tilt element-to-scroll opacity-0 w-full overflow-hidden shadow-lg rounded-full"
+                        >
+                            <img
+                                class=""
+                                src="Images/me-graduated.jpg"
+                                alt="me-graduated"
+                            />
+                        </div>
+                    </div>
+                    <div class="flex flex-col element-to-scroll opacity-0">
+                        <h1
+                            class="font-bold text-sm sm:text-sm md:text-lg lg:text-xl"
+                        >
+                            Seminar Completion Certificates
+                        </h1>
+                        <div
+                            class="element-to-tilt overflow-hidden shadow-lg h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 p-5"
+                        >
+                            <img
+                                class=""
+                                src="Images/4C'S IN THE 4TH INDUSTRIAL REVOLUTION AND EDUCATION.jpg"
+                                alt="me-graduated"
+                            />
+                        </div>
+                    </div>
+                    <div class="flex flex-col pt-7 element-to-scroll opacity-0">
+                        <div
+                            class="element-to-tilt overflow-hidden shadow-lg h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 p-5"
+                        >
+                            <img
+                                class=""
+                                src="Images/EXPLORE AI WITH POWER BI AND POWER BI METRICS.jpg"
+                                alt="me-graduated"
+                            />
+                        </div>
+                    </div>
+                    <div class="flex flex-col pt-7 element-to-scroll opacity-0">
+                        <div
+                            class="element-to-tilt overflow-hidden shadow-lg h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 p-5"
+                        >
+                            <img
+                                class=""
+                                src="Images/HUMAIN EMPOWERED INCLUSIVE TECHNOLOGY WITH EMPATHY AND COUAGE.png"
+                                alt="cert"
+                            />
+                        </div>
+                    </div>
+                    <div class="flex flex-col pt-7 element-to-scroll opacity-0">
+                        <div
+                            class="element-to-tilt overflow-hidden shadow-lg h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 p-5"
+                        >
+                            <img
+                                class=""
+                                src="Images/SQL SERVER MANAGE YOUR DATABASE BETTER.png"
+                                alt="cert"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Third section-->
+        <section
+            class="w-full grid grid-cols-1 bg-gray-700 gap-10 px-2 overflow-hidden"
+        >
+            <div class="w-full grid grid-cols-1 rounded-2xl shadow-xl">
+                <div
+                    class="page-contents w-1/2 text-white pl-5 pt-2 element-to-scroll opacity-0"
+                >
+                    <h1 class="opacity-30">Skills</h1>
+                </div>
+                <!--CONTAINER-->
+                <div
+                    class="w-full bg-gradient-to-r from-red-950 to-gray-600 grid grid-cols-1 lg:grid-cols-2 gap-10 p-5 shadow-xl rounded-md"
+                >
+                    <div
+                        class="element-to-tilt element-to-scroll opacity-0 grid grid-cols-2 shadow-xl items-center justify-center bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5"
+                    >
+                        <div class="">
+                            <img
+                                class="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h:32 lg:w-40 lg:h-40"
+                                src="Images/html.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="flex items-center">
+                            <p
+                                class="font-bold sm:text-xs md:text-lg lg:text-xl"
+                            >
+                                HTML
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="element-to-tilt element-to-scroll opacity-0 grid grid-cols-2 shadow-xl bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5"
+                    >
+                        <div class="">
+                            <img
+                                class="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h:32 lg:w-40 lg:h-40"
+                                src="Images/css-3.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="flex items-center">
+                            <p
+                                class="font-bold sm:text-xs md:text-lg lg:text-xl"
+                            >
+                                CSS
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="element-to-tilt element-to-scroll opacity-0 grid grid-cols-2 shadow-xl bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5"
+                    >
+                        <div class="">
+                            <img
+                                class="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h:32 lg:w-40 lg:h-40"
+                                src="Images/js.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="flex items-center">
+                            <p
+                                class="font-bold sm:text-xs md:text-lg lg:text-xl"
+                            >
+                                JAVASCRIPT
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="element-to-tilt element-to-scroll opacity-0 grid grid-cols-2 shadow-xl bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5"
+                    >
+                        <div class="">
+                            <img
+                                class="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h:32 lg:w-40 lg:h-40"
+                                src="data:image/png;base64,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"
+                                alt=""
+                            />
+                        </div>
+                        <div class="flex items-center">
+                            <p
+                                class="font-bold sm:text-xs md:text-lg lg:text-xl"
+                            >
+                                TAILWIND CSS
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="element-to-tilt element-to-scroll opacity-0 grid grid-cols-2 shadow-xl bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5"
+                    >
+                        <div class="">
+                            <img
+                                class="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h:32 lg:w-40 lg:h-40"
+                                src="https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="flex items-center">
+                            <p
+                                class="font-bold sm:text-xs md:text-lg lg:text-xl"
+                            >
+                                GSAP
+                            </p>
+                        </div>
+                    </div>
+
+                    <div></div>
+                    <div
+                        class="flex flex-col item-center justify-center element-to-scroll opacity-0"
+                    >
+                        <p
+                            class="font-bold text-xl text-center animate-pulse text-yellow-400"
+                        >
+                            SOON TO BE LEARNED
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-3 gap-2">
+                        <div
+                            class="element-to-tilt element-to-scroll opacity-0 flex flex-col items-center justify-center bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl"
+                        >
+                            <img
+                                class="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                src="Images/ReactJS.png"
+                                alt="reactJs"
+                            />
+                            <p>React.js</p>
+                        </div>
+                        <div
+                            class="element-to-tilt flex flex-col element-to-scroll opacity-0 items-center justify-center bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl"
+                        >
+                            <img
+                                class="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                src="Images/React Native.png"
+                                alt="reactJs"
+                            />
+                            <p class="text-center">React Native</p>
+                        </div>
+                        <div
+                            class="element-to-tilt flex element-to-scroll opacity-0 flex-col items-center justify-center bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl"
+                        >
+                            <img
+                                class="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                src="https://codekitapp.com/images/help/free-bootstrap-icon@2x.png"
+                                alt="reactJs"
+                            />
+                            <p>Bootstrap</p>
+                        </div>
+                        <div
+                            class="element-to-tilt element-to-scroll opacity-0 flex flex-col items-center justify-center bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl"
+                        >
+                            <img
+                                class="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                src="Images/python.png"
+                                alt="reactJs"
+                            />
+                            <p>Python</p>
+                        </div>
+                        <div
+                            class="element-to-tilt flex element-to-scroll opacity-0 flex-col items-center justify-center bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl"
+                        >
+                            <img
+                                class="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                src="Images/DJango.png"
+                                alt="reactJs"
+                            />
+                            <p>DJango</p>
+                        </div>
+                        <div
+                            class="element-to-tilt flex element-to-scroll opacity-0 flex-col items-center justify-center bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl"
+                        >
+                            <img
+                                class="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                src="Images/mysql.png"
+                                alt="reactJs"
+                            />
+                            <p>MySQL</p>
+                        </div>
+                        <div
+                            class="element-to-tilt element-to-scroll opacity-0 flex flex-col items-center justify-center bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl"
+                        >
+                            <img
+                                class="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                src="Images/php.png"
+                                alt="reactJs"
+                            />
+                            <p>PHP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--4th section-->
+        <section
+            class="w-full grid grid-cols-1 bg-gray-700 gap-10 px-2 overflow-hidden"
+        >
+            <div class="w-full grid grid-cols-1">
+                <div
+                    class="page-contents w-1/2 text-white pl-5 pt-2 element-to-scroll opacity-0"
+                >
+                    <h1 class="opacity-30">Projects</h1>
+                </div>
+                <!--CONTAINER-->
+                <div
+                    class="w-full bg-gradient-to-r from-green-950 to-gray-600 grid grid-cols-1 lg:grid-cols-2 divide-y gap-10 p-10 shadow-xl rounded-md"
+                >
+                    <!--Project 1 - Image-->
+                    <div
+                        class="element-to-carousel element-to-scroll opacity-0 element-to-tilt w-full overflow-hidden rounded-md shadow-lg bg-white"
+                    >
+                        <img
+                            class="w-full h-full"
+                            src="Images/GlamourGemHaven (6).png"
+                            alt="carousel"
+                        />
+                    </div>
+                    <!--Project 1 - Info-->
+                    <div
+                        class="flex flex-col gap-2 element-to-scroll opacity-0"
+                    >
+                        <div class="flex flex-col gap-1">
+                            <h1 class="font-bold">
+                                Title:
+                                <span class="italic text-yellow-600"
+                                    >GlamourGem Haven</span
+                                >
+                            </h1>
+                            <h1 class="font-bold">
+                                Type: <span class="italic">E-Commerce</span>
+                            </h1>
+                            <h1 class="font-bold">
+                                Static: <span class="text-green-600">YES</span>
+                            </h1>
+                            <h1 class="font-bold">
+                                Dynamic: <span class="text-red-600">NO</span>
+                            </h1>
+                            <h1 class="font-bold">
+                                Started at:
+                                <span class="font-normal"
+                                    >September 30, 2023</span
+                                >
+                            </h1>
+                            <h1 class="font-bold">
+                                Finished at:
+                                <span class="font-normal"
+                                    >November 28,2023</span
+                                >
+                            </h1>
+                            <h1 class="font-bold">
+                                Link:
+                                <a
+                                    href="https://fulache3.github.io/Project-1/"
+                                    target="_blank"
+                                    class="animate-pulse font-normal hover:underline"
+                                    >Click here</a
+                                >
+                            </h1>
+                        </div>
+                        <div class="flex flex-col gap-5">
+                            <div
+                                class="flex w-full items-center justify-center"
+                            >
+                                <h1 class="font-bold opacity-70">
+                                    Technology used
+                                </h1>
+                            </div>
+                            <div
+                                class="grid grid-cols-4 item-center justify-between"
+                            >
+                                <img
+                                    class="w-8 h-8 sm:w-11 sm:h-11 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                    src="Images/html.png"
+                                    alt=""
+                                />
+                                <img
+                                    class="w-8 h-8 sm:w-11 sm:h-11 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                    src="Images/css-3.png"
+                                    alt=""
+                                />
+                                <img
+                                    class="w-8 h-8 sm:w-11 sm:h-11 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                    src="Images/js.png"
+                                    alt=""
+                                />
+                                <img
+                                    class="w-8 h-8 sm:w-11 sm:h-11 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                                    src="data:image/png;base64,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"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--5th section-->
+        <section
+            class="w-full grid grid-cols-1 bg-gray-700 gap-10 px-2 overflow-hidden"
+        >
+            <div class="w-full grid grid-cols-1">
+                <div
+                    class="page-contents w-1/2 text-white pl-5 pt-2 element-to-scroll opacity-0"
+                >
+                    <h1 class="opacity-30">Experience</h1>
+                </div>
+                <!--CONTAINER-->
+                <div
+                    class="w-full bg-gradient-to-r from-pink-950 to-gray-600 grid grid-cols-1 gap-10 p-5 shadow-xl rounded-md"
+                >
+                    <div class="grid grid-cols-1 w-full gap-5">
+                        <div class="flex w-full element-to-scroll opacity-0">
+                            <h1 class="opacity-50">
+                                TECHNOLOGICAL EXPERIENCES
+                            </h1>
+                        </div>
+                        <!--Technologies-->
+                        <div
+                            data-tilt
+                            data-tilt-max="0"
+                            data-tilt-glare
+                            data-tilt-max-glare="0.5"
+                            class="grid grid-cols-1 w-full element-to-scroll opacity-0 bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl border"
+                        >
+                            <div class="flex flex-col w-full">
+                                <div class="flex items-center w-fit p-2 gap-2">
+                                    <img
+                                        class="w-7 h-7"
+                                        src="Images/html.png"
+                                        alt=""
+                                    />
+                                    <h1>HTML</h1>
+                                </div>
+                                <div
+                                    class="w-full flex flex-col items-center p-2 gap-5"
+                                >
+                                    <div class="relative w-full flex">
+                                        <div
+                                            class="h-2.5 absolute left-0 right-0 bg-blue-400 rounded"
+                                            style="width: 25%"
+                                        ></div>
+                                        <div
+                                            class="w-full flex items-center justify-between h-2.5 rounded-full bg-white"
+                                        >
+                                            <div
+                                                class="w-7 h-7 bg-blue-400 rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-blue-400 rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="w-full flex justify-between text-2xs lg:text-xs"
+                                    >
+                                        <div>3 months</div>
+                                        <div>6 months</div>
+                                        <div>9 months</div>
+                                        <div>12 months</div>
+                                        <div>2 years</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Technologies-->
+                        <div
+                            data-tilt
+                            data-tilt-max="0"
+                            data-tilt-glare
+                            data-tilt-max-glare="0.5"
+                            class="grid grid-cols-1 w-full element-to-scroll opacity-0 bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl border"
+                        >
+                            <div class="flex flex-col w-full">
+                                <div class="flex items-center w-fit p-2 gap-2">
+                                    <img
+                                        class="w-7 h-7"
+                                        src="Images/css-3.png"
+                                        alt=""
+                                    />
+                                    <h1>CSS</h1>
+                                </div>
+                                <div
+                                    class="w-full flex flex-col items-center p-2 gap-5"
+                                >
+                                    <div class="relative w-full flex">
+                                        <div
+                                            class="h-2.5 absolute left-0 right-0 bg-blue-400 rounded"
+                                            style="width: 25%"
+                                        ></div>
+                                        <div
+                                            class="w-full flex items-center justify-between h-2.5 rounded-full bg-white"
+                                        >
+                                            <div
+                                                class="w-7 h-7 bg-blue-400 rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-blue-400 rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="w-full flex justify-between text-2xs lg:text-xs"
+                                    >
+                                        <div>3 months</div>
+                                        <div>6 months</div>
+                                        <div>9 months</div>
+                                        <div>12 months</div>
+                                        <div>2 years</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Technologies-->
+                        <div
+                            data-tilt
+                            data-tilt-max="0"
+                            data-tilt-glare
+                            data-tilt-max-glare="0.5"
+                            class="grid grid-cols-1 w-full element-to-scroll opacity-0 bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl border"
+                        >
+                            <div class="flex flex-col w-full">
+                                <div class="flex items-center w-fit p-2 gap-2">
+                                    <img
+                                        class="w-7 h-7"
+                                        src="Images/js.png"
+                                        alt=""
+                                    />
+                                    <h1>JAVASCRIPT</h1>
+                                </div>
+                                <div
+                                    class="w-full flex flex-col items-center p-2 gap-5"
+                                >
+                                    <div class="relative w-full flex">
+                                        <div
+                                            class="h-2.5 absolute left-0 right-0 bg-blue-400 rounded"
+                                            style="width: 12.5%"
+                                        ></div>
+                                        <div
+                                            class="w-full flex items-center justify-between h-2.5 rounded-full bg-white"
+                                        >
+                                            <div
+                                                class="w-7 h-7 bg-blue-400 rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="w-full flex justify-between text-2xs lg:text-xs"
+                                    >
+                                        <div>3 months</div>
+                                        <div>6 months</div>
+                                        <div>9 months</div>
+                                        <div>12 months</div>
+                                        <div>2 years</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Technologies-->
+                        <div
+                            data-tilt
+                            data-tilt-max="0"
+                            data-tilt-glare
+                            data-tilt-max-glare="0.5"
+                            class="grid grid-cols-1 w-full element-to-scroll opacity-0 bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl border"
+                        >
+                            <div class="flex flex-col w-full">
+                                <div class="flex items-center w-fit p-2 gap-2">
+                                    <img
+                                        class="w-7 h-7"
+                                        src="data:image/png;base64,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"
+                                        alt=""
+                                    />
+                                    <h1>TAILWIND CSS</h1>
+                                </div>
+                                <div
+                                    class="w-full flex flex-col items-center p-2 gap-5"
+                                >
+                                    <div class="relative w-full flex">
+                                        <div
+                                            class="h-2.5 absolute left-0 right-0 bg-blue-400 rounded"
+                                            style="width: 20%"
+                                        ></div>
+                                        <div
+                                            class="w-full flex items-center justify-between h-2.5 rounded-full bg-white"
+                                        >
+                                            <div
+                                                class="w-7 h-7 bg-blue-400 rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="w-full flex justify-between text-2xs lg:text-xs"
+                                    >
+                                        <div>3 months</div>
+                                        <div>6 months</div>
+                                        <div>9 months</div>
+                                        <div>12 months</div>
+                                        <div>2 years</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Technologies-->
+                        <div
+                            data-tilt
+                            data-tilt-max="0"
+                            data-tilt-glare
+                            data-tilt-max-glare="0.5"
+                            class="grid grid-cols-1 w-full element-to-scroll opacity-0 bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl border"
+                        >
+                            <div class="flex flex-col w-full">
+                                <div class="flex items-center w-fit p-2 gap-2">
+                                    <img
+                                        class="w-7 h-7"
+                                        src="https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg"
+                                        alt=""
+                                    />
+                                    <h1>GSAP</h1>
+                                </div>
+                                <div
+                                    class="w-full flex flex-col items-center p-2 gap-5"
+                                >
+                                    <div class="relative w-full flex">
+                                        <div
+                                            class="h-2.5 absolute left-0 right-0 bg-blue-400 rounded"
+                                            style="width: 0%"
+                                        ></div>
+                                        <div
+                                            class="w-full flex items-center justify-between h-2.5 rounded-full bg-white"
+                                        >
+                                            <div
+                                                class="w-7 h-7 bg-blue-400 rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                            <div
+                                                class="w-7 h-7 bg-white rounded-full"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="w-full flex justify-between text-2xs lg:text-xs"
+                                    >
+                                        <div>3 months</div>
+                                        <div>6 months</div>
+                                        <div>9 months</div>
+                                        <div>12 months</div>
+                                        <div>2 years</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Experience Category-->
+                        <div class="grid grid-cols-1 w-full gap-5">
+                            <div
+                                class="flex w-full element-to-scroll opacity-0"
+                            >
+                                <h1 class="opacity-50">
+                                    EMPLOYMENT EXPERIENCES
+                                </h1>
+                            </div>
+                            <!--Positions-->
+                            <div
+                                data-tilt
+                                data-tilt-max="0"
+                                data-tilt-glare
+                                data-tilt-max-glare="0.5"
+                                class="grid grid-cols-1 w-full element-to-scroll opacity-0 bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl border"
+                            >
+                                <div class="flex flex-col w-full">
+                                    <div
+                                        class="flex items-center w-fit p-2 gap-2"
+                                    >
+                                        <img
+                                            class="w-7 h-7 bg-white rounded-full"
+                                            src="https://cdn-icons-png.flaticon.com/512/3242/3242120.png"
+                                            alt=""
+                                        />
+                                        <h1>Jr. Software Developer</h1>
+                                    </div>
+                                    <div
+                                        class="w-full flex flex-col items-center p-2 gap-5"
+                                    >
+                                        <div class="relative w-full flex">
+                                            <div
+                                                class="h-2.5 absolute left-0 right-0 bg-yellow-400 rounded"
+                                                style="width: 0%"
+                                            ></div>
+                                            <div
+                                                class="w-full flex items-center justify-between h-2.5 rounded-full bg-white"
+                                            >
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="w-full flex justify-between text-2xs lg:text-xs"
+                                        >
+                                            <div>3 months</div>
+                                            <div>6 months</div>
+                                            <div>9 months</div>
+                                            <div>12 months</div>
+                                            <div>2 years</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Positions-->
+                            <div
+                                data-tilt
+                                data-tilt-max="0"
+                                data-tilt-glare
+                                data-tilt-max-glare="0.5"
+                                class="grid grid-cols-1 w-full element-to-scroll opacity-0 bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl border"
+                            >
+                                <div class="flex flex-col w-full">
+                                    <div
+                                        class="flex items-center w-fit p-2 gap-2"
+                                    >
+                                        <img
+                                            class="w-7 h-7 bg-white rounded-full"
+                                            src="https://cdn-icons-png.flaticon.com/512/3241/3241859.png"
+                                            alt=""
+                                        />
+                                        <h1>Mid Sr. Software Developer</h1>
+                                    </div>
+                                    <div
+                                        class="w-full flex flex-col items-center p-2 gap-5"
+                                    >
+                                        <div class="relative w-full flex">
+                                            <div
+                                                class="h-2.5 absolute left-0 right-0 bg-yellow-400 rounded"
+                                                style="width: 0%"
+                                            ></div>
+                                            <div
+                                                class="w-full flex items-center justify-between h-2.5 rounded-full bg-white"
+                                            >
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="w-full flex justify-between text-2xs lg:text-xs"
+                                        >
+                                            <div>3 months</div>
+                                            <div>6 months</div>
+                                            <div>9 months</div>
+                                            <div>12 months</div>
+                                            <div>2 years</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Positions-->
+                            <div
+                                data-tilt
+                                data-tilt-max="0"
+                                data-tilt-glare
+                                data-tilt-max-glare="0.5"
+                                class="grid grid-cols-1 w-full element-to-scroll opacity-0 bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl border"
+                            >
+                                <div class="flex flex-col w-full">
+                                    <div
+                                        class="flex items-center w-fit p-2 gap-2"
+                                    >
+                                        <img
+                                            class="w-7 h-7 bg-white rounded-full"
+                                            src="https://cdn-icons-png.flaticon.com/512/3242/3242244.png"
+                                            alt=""
+                                        />
+                                        <h1>Sr. Software Developer</h1>
+                                    </div>
+                                    <div
+                                        class="w-full flex flex-col items-center p-2 gap-5"
+                                    >
+                                        <div class="relative w-full flex">
+                                            <div
+                                                class="h-2.5 absolute left-0 right-0 bg-yellow-400 rounded"
+                                                style="width: 0%"
+                                            ></div>
+                                            <div
+                                                class="w-full flex items-center justify-between h-2.5 rounded-full bg-white"
+                                            >
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="w-full flex justify-between text-2xs lg:text-xs"
+                                        >
+                                            <div>3 months</div>
+                                            <div>6 months</div>
+                                            <div>9 months</div>
+                                            <div>12 months</div>
+                                            <div>2 years</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Experience Category-->
+                        <div class="grid grid-cols-1 w-full gap-5">
+                            <div
+                                class="flex w-full element-to-scroll opacity-0"
+                            >
+                                <h1 class="opacity-50">
+                                    DEVELOPMENT EXPERIENCE
+                                </h1>
+                            </div>
+                            <!--Development Type-->
+                            <div
+                                data-tilt
+                                data-tilt-max="0"
+                                data-tilt-glare
+                                data-tilt-max-glare="0.5"
+                                class="grid grid-cols-1 w-full element-to-scroll opacity-0 bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl border"
+                            >
+                                <div class="flex flex-col w-full">
+                                    <div
+                                        class="flex items-center w-fit p-2 gap-2"
+                                    >
+                                        <img
+                                            class="w-7 h-7"
+                                            src="https://cdn-icons-png.flaticon.com/512/1055/1055666.png"
+                                            alt=""
+                                        />
+                                        <h1>Front-end Developer</h1>
+                                    </div>
+                                    <div
+                                        class="w-full flex flex-col items-center p-2 gap-5"
+                                    >
+                                        <div class="relative w-full flex">
+                                            <div
+                                                class="h-2.5 absolute left-0 right-0 bg-red-400 rounded"
+                                                style="width: 25%"
+                                            ></div>
+                                            <div
+                                                class="w-full flex items-center justify-between h-2.5 rounded-full bg-white"
+                                            >
+                                                <div
+                                                    class="w-7 h-7 bg-red-400 rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-red-400 rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="w-full flex justify-between text-2xs lg:text-xs"
+                                        >
+                                            <div>3 months</div>
+                                            <div>6 months</div>
+                                            <div>9 months</div>
+                                            <div>12 months</div>
+                                            <div>2 years</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Development Type-->
+                            <div
+                                data-tilt
+                                data-tilt-max="0"
+                                data-tilt-glare
+                                data-tilt-max-glare="0.5"
+                                class="grid grid-cols-1 w-full element-to-scroll opacity-0 bg-gray-50 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-5 shadow-xl border"
+                            >
+                                <div class="flex flex-col w-full">
+                                    <div
+                                        class="flex items-center w-fit p-2 gap-2"
+                                    >
+                                        <img
+                                            class="w-7 h-7"
+                                            src="https://cdn-icons-png.flaticon.com/512/5432/5432506.png"
+                                            alt=""
+                                        />
+                                        <h1>Back-end Developer</h1>
+                                    </div>
+                                    <div
+                                        class="w-full flex flex-col items-center p-2 gap-5"
+                                    >
+                                        <div class="relative w-full flex">
+                                            <div
+                                                class="h-2.5 absolute left-0 right-0 bg-red-400 rounded"
+                                                style="width: 0%"
+                                            ></div>
+                                            <div
+                                                class="w-full flex items-center justify-between h-2.5 rounded-full bg-white"
+                                            >
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                                <div
+                                                    class="w-7 h-7 bg-white rounded-full"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="w-full flex justify-between text-2xs lg:text-xs"
+                                        >
+                                            <div>3 months</div>
+                                            <div>6 months</div>
+                                            <div>9 months</div>
+                                            <div>12 months</div>
+                                            <div>2 years</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--5th section-->
+        <section class="w-full grid grid-cols-1 bg-gray-700 gap-10 px-2 pb-2">
+            <div class="w-full flex flex-col rounded-2xl shadow-xl">
+                <div
+                    class="page-contents w-1/2 text-white pl-5 pt-2 element-to-scroll opacity-0"
+                >
+                    <h1 class="opacity-30">Contacts</h1>
+                </div>
+                <!--CONTAINER-->
+                <div
+                    class="w-full bg-gradient-to-r from-black to-gray-600 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 p-10 gap-10 rounded-md"
+                >
+                    <div class="flex flex-col justify-center gap-5">
+                        <div class="flex w-fit element-to-scroll opacity-0">
+                            <h1 class="text-2xl">REACH ME</h1>
+                        </div>
+                        <div
+                            class="sm:w-1/2 md:w-1/2 lg:w-1/2 element-to-scroll opacity-0"
+                        >
+                            <p class="text-xs">
+                                Feel free to reach out to me, I'm always open to
+                                discussing new projects, creative ideas, or
+                                opportunities to contribute to your visions.
+                            </p>
+                        </div>
+                        <div
+                            class="grid grid-cols-4 item-center justify-center element-to-scroll opacity-0"
+                        >
+                            <img
+                                class="w-8 h-8 sm:w-10 sm:h-10 md:w-11 md:h-11 lg:w-11 lg:h-11"
+                                src="Images/facebook.png"
+                                alt=""
+                            />
+                            <img
+                                class="w-8 h-8 sm:w-10 sm:h-10 md:w-11 md:h-11 lg:w-11 lg:h-11"
+                                src="Images/gmail.png"
+                                alt=""
+                            />
+                            <img
+                                class="w-8 h-8 sm:w-10 sm:h-10 md:w-11 md:h-11 lg:w-11 lg:h-11"
+                                src="Images/instagram.png"
+                                alt=""
+                            />
+                            <img
+                                class="w-8 h-8 sm:w-10 sm:h-10 md:w-11 md:h-11 lg:w-11 lg:h-11"
+                                src="Images/linkedin.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col gap-5">
+                        <h1
+                            class="text-2xl sm:text-5xl md:text-5xl lg:text-5xl font-bold text-yellow-500 element-to-scroll opacity-0"
+                        >
+                            GET IN TOUCH
+                        </h1>
+                        <div
+                            class="w-full flex flex-col gap-3 element-to-scroll opacity-0"
+                        >
+                            <input
+                                class="bg-transparent border border-white py-2 px-5"
+                                type="text"
+                                placeholder="Name"
+                            />
+                            <input
+                                class="bg-transparent border border-white py-2 px-5"
+                                type="email"
+                                placeholder="Email"
+                            />
+                            <textarea
+                                class="bg-transparent border border-white p-5"
+                                cols="30"
+                                rows="10"
+                                placeholder="Message..."
+                            ></textarea>
+                            <button
+                                class="bg-blue-500 p-2 rounded-full w-1/2 hover:opacity-90 active:opacity-50"
+                                type="submit"
+                            >
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+            defer
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+            defer
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"
+            defer
+        ></script>
+        <script src="Scripts/vanilla-tilt.js" defer></script>
+        <script src="Scripts/index.js" defer></script>
+    </body>
+</html>
